@@ -42,9 +42,10 @@ long long unsetbit(long long l,int n)
     	u=~u;
     	bin(l&u);
     	return l&u;
-}i
-int main()
+}
 
+
+int main()
 {
   while(1)
   {
